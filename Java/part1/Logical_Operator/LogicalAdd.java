@@ -1,8 +1,5 @@
-/*
-    Logical Add Operator
-    Date:26/06/2025 
-*/
-
+// Logical Add Operator
+//  Date:26/06/2025 
 class LogicalAdd
 {
     public static void main(String[] args) {
