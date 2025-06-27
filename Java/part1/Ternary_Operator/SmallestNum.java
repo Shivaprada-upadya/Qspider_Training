@@ -1,3 +1,5 @@
+// Write a Program to check the given number is Even or Odd using Ternary Operator.
+
 public class SmallestNum {
     public static void main(String[] args) {
         int num1=10;
