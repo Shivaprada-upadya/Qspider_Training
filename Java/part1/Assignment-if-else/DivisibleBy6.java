@@ -1,4 +1,4 @@
-// Write a Program to check whether a Student is passed or nfailed in exam (>=35).
+// Write a Program to check whether a Number is Divisible by 6.
 
 import java.util.Scanner;
 public class DivisibleBy6 {
