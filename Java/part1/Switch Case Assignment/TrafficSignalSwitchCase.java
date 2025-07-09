@@ -23,5 +23,6 @@ class TrafficSignalSwitchCase
                 break;
         default: System.out.println("Invalid color");
         }
+        sc.close();
     }
 }
