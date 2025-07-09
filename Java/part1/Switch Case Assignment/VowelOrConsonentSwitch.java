@@ -29,5 +29,6 @@ public class VowelOrConsonentSwitch {
         else{
             System.out.println("Sorry entered character is not a aplhabet");
         }
+        sc.close();
     }
 }
