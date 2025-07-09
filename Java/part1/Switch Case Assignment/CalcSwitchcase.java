@@ -39,6 +39,7 @@ class CalcSwitchcase
             case '%': System.out.println(num1%num2);
                     break;
         }
+        sc.close();
     }
 
 }
