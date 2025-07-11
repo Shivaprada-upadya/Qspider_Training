@@ -8,7 +8,7 @@ public class numsRangeForLoop {
         int end=sc.nextInt();
         for(int i=start;i<=end;i++)
         {
-            System.out.print(i);
+            System.out.print(i+" ");
         }
     }
 }
