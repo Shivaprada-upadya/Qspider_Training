@@ -1,3 +1,5 @@
+// Write a Program to Print the Factorial of a Number.
+
 import java.util.Scanner;
 public class FactorialOfANumberFor {
     public static void main(String[] args) {
