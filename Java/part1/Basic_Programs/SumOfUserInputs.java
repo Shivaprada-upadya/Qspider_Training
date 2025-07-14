@@ -1,7 +1,6 @@
-// 
+// Write a Program to Print the Sum of Numbers based on the User Inputs.
 
 import java.util.Scanner;
-
 public class SumOfUserInputs {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
