@@ -13,7 +13,7 @@ public class SumOfUserInputs {
             int num=sc.nextInt();
             sum=sum+num;
         }
-        
+               
         System.out.println("Final sum is :"+sum);
     }
 }
