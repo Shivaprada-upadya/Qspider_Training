@@ -7,7 +7,8 @@ class SumOfNumberInRange
         int start=sc.nextInt();
         int end =sc.nextInt();
         int sum=0;
-        for(int i=start;i<=end;i++)
+        // i++ or ++i both are same because there is no other oprations  
+        for(int i=start;i<=end;i++) 
         {
             sum+=i;
         }
