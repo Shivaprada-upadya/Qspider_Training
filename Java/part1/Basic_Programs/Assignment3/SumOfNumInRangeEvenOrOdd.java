@@ -20,6 +20,7 @@ public class SumOfNumInRangeEvenOrOdd {
         {
             System.out.println("The Sum of the Range :"+sum+" is Odd");
         }
+        
 
     }
 }
