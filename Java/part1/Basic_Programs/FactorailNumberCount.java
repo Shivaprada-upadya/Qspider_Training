@@ -6,7 +6,7 @@ public class FactorailNumberCount {
         System.out.println("Ebter a Number: ");
         int num=sc.nextInt();
         int count=0;
-        for(int i=1;i<num;i++)
+        for(int i=1;i<=num;i++)
         {
             if(num%i==0)
             {
