@@ -11,9 +11,9 @@ public class Swap2NumWithout3rdVariable {
         System.out.println("--------Before Swap-------");
         System.out.println("Tha value of a: "+a);
         System.out.println("Tha value of a: "+b);
-        a=a+b;
-        b=a-b;
-        a=a-b;
+        a=a+b; // a=a*b;    a=a^b;
+        b=a-b; // b=a/b;    b=a^b;
+        a=a-b; // a=a/b;    a=a^b;
         System.out.println("-------After Swap-------");
         System.out.println("Tha value of a: "+a);
         System.out.println("Tha value of a: "+b);
