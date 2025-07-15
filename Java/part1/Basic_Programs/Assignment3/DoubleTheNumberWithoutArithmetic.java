@@ -9,5 +9,15 @@ public class DoubleTheNumberWithoutArithmetic {
         int doubleNum= num<<1;
         System.out.println("Double the value of "+num+" is : "+doubleNum);
 
+        /* int a=sc.nextInt();
+         * int b=a;
+         * while(b!=0)
+         * {
+         *  a++;
+         *  b--;
+         * }
+         * System.out.println(a);
+         * 
+         */
     }
 }
