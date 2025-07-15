@@ -7,6 +7,16 @@ public class HalfTheNumberWithoutArithmeticOperator {
         System.out.println("Enter a Value to half the number: ");
         int num=sc.nextInt();
         int halfNum=num>>1;
+        
         System.out.println("Half the value of "+num+" is : "+halfNum);
+        /* 
+        int b=0;
+        while(num!=b)
+        {
+            num--;
+            b++;
+        }
+        System.out.println(num);
+        */
     }
 }
