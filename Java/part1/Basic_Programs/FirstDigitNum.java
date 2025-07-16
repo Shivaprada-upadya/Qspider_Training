@@ -7,15 +7,21 @@ public class FirstDigitNum {
         int num=sc.nextInt();
         int number=num;
         int firstDigit=0;
-        int rev=0;
+       
         while(num>0)
         {
-            firstDigit=num%10;
-            //rev=rev*10+firstDigit;
+            firstDigit=num%10;           
             num/=10;
         }
         
         System.out.println("The Last Digit of "+number+" is : "+firstDigit);
-        //System.out.println(rev);
+
+
+        /*
+         * while(number>9)
+         *    num/=10;
+         * System.out.println(number);
+         */
+        
     }
 }
