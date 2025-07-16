@@ -6,12 +6,29 @@ public class CountDigitOfNum {
         System.out.println("Enter a Number: ");
         int num=sc.nextInt();
         int number=num;  
-        int digit=0, count=0;
+         int count=0;
+         
         while(num>0)
         {
             num/=10;
             count++;
         }
-        System.out.println("The Count of the "+number+" Digit is: "+count);
+        System.out.println("The Count of the "+number+"'s Digit is: "+count);
+        /*   
+            int i;
+            for( i=0;num>0;i++)
+            {
+                num/=10;
+            }          
+        System.out.println("The Count of the "+number+" Digit is: "+i);
+        */
+        /* 
+        do {
+            num/=10;
+            count++;
+        }
+        while(num>0);
+        System.out.println("The Count of the "+number+" Digit is: "+count);*/
+      
     }
 }
