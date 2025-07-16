@@ -7,8 +7,10 @@ public class CountFactotNumberEvenOrOdd {
         int num=sc.nextInt();
         int count=0;
         for(int i=1;i<=num;i++)
-            count++;
-        
+        {   
+            if(num%i==0)
+                count++;
+        }
         if(count%2==0)
         {
             System.out.println("Count of Factors of "+num+" is Even");
