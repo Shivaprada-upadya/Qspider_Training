@@ -12,6 +12,6 @@ public class Print2ndDigitOfANumber {
             num/=10;
         }
         int secondDigit=num%10;       
-        System.out.println("2nd  digit of "+num+" is: "+secondDigit);
+        System.out.println("2nd  digit of "+number+" is: "+secondDigit);
     }
 }
