@@ -6,7 +6,12 @@ public class Print2ndDigitOfANumber {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Number: ");
         int num=sc.nextInt();
-        int Digit=(num%100)/10;       
-        System.out.println("2nd Last digit of "+num+" is: "+lastDigit);
+        int number=num;
+        while(num>99)
+        {
+            num/=10;
+        }
+        int secondDigit=num%10;       
+        System.out.println("2nd  digit of "+num+" is: "+secondDigit);
     }
 }
