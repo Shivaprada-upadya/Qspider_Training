@@ -13,5 +13,12 @@ public class SubstractionWithoutArithmeticOperator {
         num2--;
        }
        System.out.println("Substraction of given Number is: "+num1);
+
+       /*  for(int i=1;i<=num2;i++)
+            {
+                num2--;
+            }
+                System.out.println(num2);
+        */
    } 
 }
