@@ -5,7 +5,28 @@ public class PrintDigitInAscendingOrder {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Number: ");
         int num=sc.nextInt();
-        int sort=0;
+        String sort="";
+        for(int i=0;i<=9;i++)
+        {
+            int temp=num;
+            while(temp>0)
+            {
+                int digit=temp%10;
+                if(i==digit)
+                {
+                    sort=sort+i;
+                }
+                temp/=10;
+            }
+        }   
+        System.out.println(sort);
+
+
+
+
+
+
+       /*  int sort=0;
         for(int i=0;i<=9;i++)
         {
             int temp=num;
@@ -20,5 +41,7 @@ public class PrintDigitInAscendingOrder {
             }
         }   
         System.out.println(sort);
+
+        */
     }
 }
