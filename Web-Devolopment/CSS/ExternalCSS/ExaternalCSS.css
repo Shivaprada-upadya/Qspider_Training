@@ -1,0 +1,15 @@
+#abc{
+            text-align: center;
+            text-decoration: underline black solid 5px;
+            color:red;
+            background-color: lightblue;
+            text-shadow:5px 5px 6px black;
+            text-transform: capitalize;
+            letter-spacing: 10px;
+
+            
+        }
+
+        p{
+            color: blue
+        }
