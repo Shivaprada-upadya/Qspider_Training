@@ -7,9 +7,12 @@
             text-transform: capitalize;
             letter-spacing: 10px;
 
-            
+            font-family: 'Times New Roman', Times, serif;
+
         }
 
         p{
-            color: blue
+            color: blue;
+            text-align: justify;
+            word-spacing: 10px;
         }
