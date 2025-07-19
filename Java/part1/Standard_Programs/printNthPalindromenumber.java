@@ -8,7 +8,7 @@ public class printNthPalindromenumber {
         int count=0;
         int i=1;
         int rev=0;
-        while(n!=count)
+        while(true)
         {
             rev=0;
             int temp=i;
@@ -22,11 +22,16 @@ public class printNthPalindromenumber {
             {
                  count++;
             }
+            if(count==n)
+            {
+                System.out.println(n+"th Palindrome Number is: "+rev);
+                break;
+            }
              i++;
        
         }
         
-        System.out.println(n+"th Palindrome Number is: "+rev);
+        //System.out.println(n+"th Palindrome Number is: "+rev);
 
 
     }
