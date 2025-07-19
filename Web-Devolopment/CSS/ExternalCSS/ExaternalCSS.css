@@ -4,20 +4,48 @@
             text-align: center;
             text-decoration: underline black solid 5px;
             color:red;
-            background-color: lightblue;
+            /* background-color: lightblue; */
             text-shadow:5px 5px 6px black;
             text-transform: capitalize;
             font-size: 50px;
             letter-spacing: 10px;
 
             font-family: bitcount grid single;
-
+            
+            /* background: rgb(240,150,47); */
         }
 
         p{
+            text-indent: 100px;
             color: blue;
             text-align: justify;
             word-spacing: 10px;
             font-weight: bold;
             font-style: italic;
+            /* background: yellow; */
         }
+
+        .sample-section1{
+            /* background: aqua;  */
+           background:linear-gradient(violet,indigo,blue,green,rgba(139, 139, 41, 0.763),orange,red);
+            
+        }
+
+         .sample-section2{
+            /* background: aqua;  */
+            background:radial-gradient(circle,violet,indigo,blue,green,rgba(139, 139, 41, 0.763),orange,red) ;
+            
+        }
+
+         .sample-section3{
+            /* background: aqua;  */
+            background:conic-gradient(violet,indigo,blue,green,rgba(139, 139, 41, 0.763),orange,red) ;
+            
+        }
+
+         .sample-section4{
+            /* background: aqua;  */
+            background: url(./andamanimage2.jpg) center/cover fixed;
+            height: 100vh;
+            
+       
