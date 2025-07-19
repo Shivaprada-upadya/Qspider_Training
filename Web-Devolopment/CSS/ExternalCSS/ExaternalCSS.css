@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
 #abc{
             text-align: center;
             text-decoration: underline black solid 5px;
@@ -5,9 +7,10 @@
             background-color: lightblue;
             text-shadow:5px 5px 6px black;
             text-transform: capitalize;
+            font-size: 50px;
             letter-spacing: 10px;
 
-            font-family: 'Times New Roman', Times, serif;
+            font-family: bitcount grid single;
 
         }
 
@@ -15,4 +18,6 @@
             color: blue;
             text-align: justify;
             word-spacing: 10px;
+            font-weight: bold;
+            font-style: italic;
         }
