@@ -53,6 +53,7 @@
 
          .btn{
             background: aqua;
-            color: white;
+            color: black;
             border: 3px groove red;
+            padding:5px 10px ;
          }
