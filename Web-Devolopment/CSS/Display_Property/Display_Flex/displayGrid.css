@@ -1,0 +1,31 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.c1{
+background-color: red;
+}
+
+.c2{
+
+background-color: yellow;
+}
+
+.c3{
+    background-color: green;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: space-evenly;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
