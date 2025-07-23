@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .box{
     border: 1px solid black;
     height: 200px;
@@ -6,26 +11,37 @@
     align-content: center;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 0px -5px;
 }
 
 .c1{
-background-color: red;
+background-color: orange;
+background:url(https://yt3.googleusercontent.com/ytc/AIdro_mZMPpWqqvJBAb2rU4z3QjuVWa-CpVnq_I2m3Vg2Ws0eA=s160-c-k-c0x00ffffff-no-rj) no-repeat center;
+
 }
 
 .c2{
 
-background-color: yellow;
+background-color: white;
+background:url(https://yt3.googleusercontent.com/ytc/AIdro_mZMPpWqqvJBAb2rU4z3QjuVWa-CpVnq_I2m3Vg2Ws0eA=s160-c-k-c0x00ffffff-no-rj) no-repeat center;
+
 }
 
 .c3{
     background-color: green;
+    background:url(https://yt3.googleusercontent.com/ytc/AIdro_mZMPpWqqvJBAb2rU4z3QjuVWa-CpVnq_I2m3Vg2Ws0eA=s160-c-k-c0x00ffffff-no-rj) no-repeat center;
 }
 .container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     justify-items: space-evenly;
     row-gap: 30px;
     align-items: center;
     justify-content: space-evenly;
+    background-color: aqua;
+    
 }
 
+.c22{
+    background-color: white;
+}
