@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 // Write a Program to perform all the Arithmetic operation for 2 number
 class WithArgWithReturn
 {
@@ -33,6 +36,10 @@ class WithArgWithReturn
 
 
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+  
+        
+
         System.out.println(add(20,10));
         System.out.println(sub(10,20));
         System.out.println(mul(20,10));
