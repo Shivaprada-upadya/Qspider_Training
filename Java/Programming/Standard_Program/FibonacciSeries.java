@@ -4,17 +4,13 @@ public class FibonacciSeries
 {
     public static void Fibnacci(int num)
     {
-        if(num==0)
+        if(num<=0)
         {
-            System.out.println(0);
+             System.out.println("Please enter a positive integer.");
         }
         else if(num==1)
-        {
-            for(int i=0;i<=num;i++)
-            {
-                System.out.print(i);
-            }
-        }
+            System.out.print(0);
+
         else
         {
              int first=0;
