@@ -1,0 +1,21 @@
+*{
+     
+    font-family: "Nunito";
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-header{
+        color: #424242;
+        font-size: 55px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+}
+
+.feature-flex{
+    display: flex;
+    flex: auto auto auto auto auto;
+    
+}
