@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 5vh;
+    margin-top: 5vh;
+}
+h1{
+    background-color: red;
+    text-align: center;
+    border-color: green;
+    margin-top: 2vh;
+}
+
+img{
+    height: 250px;
+    width: 350px;
+    box-shadow: 0px 0x 8px red;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 7px red;
+    transition: all;
+}
+
+img:hover{
+    transform: rotate(45deg);
+}
+
