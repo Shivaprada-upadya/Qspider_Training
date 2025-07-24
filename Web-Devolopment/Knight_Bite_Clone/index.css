@@ -17,5 +17,17 @@
 .feature-flex{
     display: flex;
     flex: auto auto auto auto auto;
+    column-gap: 10px;
+    height: auto;
+    width: auto;
+    align-content:space-evenly;
+    background-color: red;
     
+    margin: auto;
+    
+}
+
+.img{
+        overflow-clip-margin: content-box;
+    overflow: clip;
 }
