@@ -1,5 +1,8 @@
-import java.util.Scanner;
+// Write a program to print the Fibonacci Series.
+// Fibonacci- A Series of number of number in which every terms are the sum of previuos 2 terms
+// 0 1 1 2 3 5 8 13 21 .......
 
+import java.util.Scanner;
 public class FibonacciSeries 
 {
     public static void Fibnacci(int num)
