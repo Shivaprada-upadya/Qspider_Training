@@ -26,7 +26,6 @@ public class ArmStrongNumber {
     {
         int CountDigit=DigitOfCount(num);
         int sum=0;
-        int temp=num;
         while(num>0)
         {
             int ld=num%10;
@@ -40,10 +39,13 @@ public class ArmStrongNumber {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a Number: ");
         int num=sc.nextInt();
-        
+      //  for(int i=1;i<=10000;i++)
+      //  {
         int answer=SumOfDigits(num);
         if(num==answer)
-            System.out.println(num+" is a ArmStrongNumber");
+            System.out.println(num+" is an Arm Strong Number");
+        
     }
-
 }
+
+
