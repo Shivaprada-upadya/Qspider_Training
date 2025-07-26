@@ -40,7 +40,7 @@ public class DisariumNumber {
         System.out.println("Enter a Number: ");
         int num=sc.nextInt();
         if(SumOfDigit(num)==num)
-            System.out.println(num+" is Disaium Number.");
+            System.out.println(num+" is Disarium Number.");
         else
             System.out.println(num+" is not a Disarium NUmber.");
         
