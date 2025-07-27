@@ -1,0 +1,28 @@
+button{
+    display: block;
+    margin-top: 1rem;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5rem;
+    
+}
+
+.btn1{
+    position: static;
+}
+.btn2{
+    position: fixed;
+     top: 100px;
+    right: 0px; 
+}
+.btn3{
+    
+}
+.btn4{
+    
+}
+.btn5{
+    
+}
