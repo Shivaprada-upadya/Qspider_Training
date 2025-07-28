@@ -11,12 +11,12 @@ class StaticMember{
     static int a=1;
     static int b=2;
     static int c=2;
-    public static void method1(int a,int b,int c)
+    public static void method1(int n1,int n2,int n3)
     {
 		System.out.println("In Method 1");		
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(n3);
 		// method(2);
     }
 
