@@ -1,0 +1,17 @@
+.spinner{
+    animation: spinner1 5s linear alternate infinite;
+    
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes spinner1 {
+    from{
+        background-color: blue;
+        transform: translate(0px);
+    }
+    to{
+        background-color: red;
+        transform: translate(800px);
+    }
+}
