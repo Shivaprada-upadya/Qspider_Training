@@ -1,0 +1,22 @@
+.container{
+    background-color: blue;
+    padding: 20px;
+}
+.inner{
+    background-color: white;
+}
+.container h1{
+    color: green;
+}
+.inner>h1{
+    color: rgb(254, 6, 138);
+}
+.combinator span{
+    background-color: aqua;
+}
+.container+h2{
+color: blueviolet;
+}
+.container~h2{
+    color: chartreuse;
+}
