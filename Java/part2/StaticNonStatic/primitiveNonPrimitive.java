@@ -8,7 +8,7 @@ public class primitiveNonPrimitive {
     static double d;
     static boolean bool;
     static char ch;
-    static String str;
+    static String str; 
 
     public static void main(String[] args) {
         primitiveNonPrimitive obj=new primitiveNonPrimitive();
