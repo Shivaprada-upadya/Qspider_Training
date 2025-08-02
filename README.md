@@ -1,4 +1,4 @@
 # Qspiders-Learning
 
-This Repositoru Contains the Qspider Training Related Practice Proagrams
+This Repositoru Contains the Qspider Training Related Practice Programs.
 
