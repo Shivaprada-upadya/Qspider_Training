@@ -1,4 +1,4 @@
 # Qspiders-Learning
 
-This Repositoru Contains the Qspider Training Related Practice Programs.
+This Repository Contains the Qspider Training Related Practice Programs.
 
