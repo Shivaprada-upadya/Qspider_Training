@@ -1,5 +1,7 @@
-public class PatternProgram {
-    public static void main(String[] args) {
+public class PatternProgram 
+{
+    public static void main(String[] args) 
+    {
         int str=9, spc=0;
         for(int r=1;r<=9;r++)
         {
@@ -10,19 +12,16 @@ public class PatternProgram {
                 System.out.print("*");
 
             System.out.println(" ");
-        
-
-        if(r<5)
-        {
-            str-=2;
-            spc++;
+            if(r<5)
+            {
+                str-=2;
+                spc++;
+            }
+            else
+            {
+                str+=2;
+                spc--;
+            }
         }
-        else{
-            str+=2;
-            spc--;
-        }
-
-    }
-
     }
 }
