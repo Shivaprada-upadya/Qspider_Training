@@ -29,11 +29,11 @@ public class InventoryManagementSystem {
         System.out.println("2nd Product Details: ");
         InventoryManagementSystem p2=new InventoryManagementSystem("phone",9234.45,5);
         p2.productDisplay();
-        System.out.println("Total cost of 1st Product: "+p2.calculation());
+        System.out.println("Total cost of 2nd Product: "+p2.calculation());
 
         System.out.println("3rd Product Details: ");
         InventoryManagementSystem p3=new InventoryManagementSystem("tv",22234.45,5);
         p3.productDisplay();
-        System.out.println("Total cost of 1st Product: "+p3.calculation());
+        System.out.println("Total cost of 3rd Product: "+p3.calculation());
     }
 }
