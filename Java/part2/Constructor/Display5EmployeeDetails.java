@@ -9,7 +9,7 @@ class Display5EmployeeDetails{
         this.id=id;
         this.name=name;
         this.salary=salary;
-        this.cname=cname;
+
     }
     public static void main(String[] args) {
         Display5EmployeeDetails e1=new Display5EmployeeDetails(1,"aaa",12345);
