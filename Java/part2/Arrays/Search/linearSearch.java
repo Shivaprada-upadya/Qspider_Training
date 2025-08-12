@@ -1,16 +1,16 @@
 
 import java.util.Scanner;
 public class linearSearch {
-    public static boolean LinearSearch(int[] arr,int key)
+    public static int LinearSearch(int[] arr,int key)
     {
         for(int i=0;i<arr.length;i++)
         {
             if(arr[i]==key)
             {
-                return true;
+                return i;
             }            
         }
-        return false;
+        return -1;
         
     }
     public static void main(String[] args) {
@@ -25,12 +25,14 @@ public class linearSearch {
         }
         System.out.println("Enter the key: ");
         int key=sc.nextInt();
-        if(LinearSearch(arr,key))
+        int position=LinearSearch(arr,key);
+        if(position==-1)
         {
-            System.out.println("Key element found ");
+            System.out.println("Key element not found ");
         }
         else{
-            System.out.println("Key element not found ");
+            
+            System.out.println("Key element found at "+position);
         }
     }
 }
