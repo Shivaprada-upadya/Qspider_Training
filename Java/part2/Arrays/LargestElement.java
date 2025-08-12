@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class LargestElement {
-    public static int LinearSearch(int[] arr)
+    public static int Largest(int[] arr)
     {
         int largest=arr[0];
         for(int i=1;i<arr.length;i++)
         {
             if(arr[i]>largest)
-                largest=arr[i];                  
+                largest=arr[i];                
         }
         return largest;
     }
@@ -21,7 +21,7 @@ public class LargestElement {
         {
             arr[i]=sc.nextInt();
         }
-        int largest=LinearSearch(arr);        
+        int largest=Largest(arr);        
         System.out.println("Largest element is: "+largest);
         
     }
