@@ -11,12 +11,12 @@ public class SmallestElement {
         }
         return arr[smallest];
 
-        /*
-            int smallest=arr[0];
-            for(int i=1;i<arr.length;i++)
+        /* 
+            int smallest=arr[0]; 10
+            for(int i=1;i<arr.length;i++) 
             {
-            if(arr[i]<smallest)
-                smallest=arr[i];                  
+            if(arr[i]<smallest) 
+                smallest=arr[i];         
         }
         return smallest; 
         */
