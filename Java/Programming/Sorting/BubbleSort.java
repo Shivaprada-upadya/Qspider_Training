@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BubbleSort {
-     public static int[] bubbleSort(int arr[])
+     public static int [] bubbleSort(int arr[])
      {
     for(int i=0;i<arr.length;i++)
         {
@@ -18,7 +18,7 @@ public class BubbleSort {
                 }
             }
         }
-    return arr;
+        return arr;
      }
     public static void main(String [] args)
     {
