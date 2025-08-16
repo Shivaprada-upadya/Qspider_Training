@@ -29,7 +29,7 @@ public class p1 {
         // System.out.println(c);
 
         int a=10;
-        System.out.println(a += a-= a*= a/=2) ;// 
+        System.out.println(a += a-= a*= a/=2) ; 
         System.out.println(1+2+"3"+4+5*0); //3340
 
         // int x=10;
