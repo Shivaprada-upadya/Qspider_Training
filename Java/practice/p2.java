@@ -4,7 +4,7 @@ class p2 {
         Character y = 'x';
         Double z = 2.1;
 
-        System.out.println(x + y + z);
+        System.out.printf("%d %c %f",x,y,z);
         
     }
 }
