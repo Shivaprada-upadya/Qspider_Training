@@ -5,6 +5,10 @@ class p2 {
         Double z = 2.1;
 
         System.out.printf("%d %c %f",x,y,z);
+        String s="""
+                hiiiiiiiii
+                i am shivaprada
+                """;
         
     }
 }
