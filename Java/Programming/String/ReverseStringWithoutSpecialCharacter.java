@@ -34,6 +34,7 @@ public class ReverseStringWithoutSpecialCharacter
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a string: ");
         String str=new String(sc.next());
-        System.out.println(Arrays.toString(str.toCharArray()));
+        
+        System.out.println(Arrays.toString(reverse(str.toCharArray())));
     }
 }
