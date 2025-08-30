@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ReverseStringWithoutSpecialCharacter
 {
-    public static char [] reverse(char str[])
+     static char [] reverse(char str[])
     {
         int left=0;
         int right=str.length-1;
