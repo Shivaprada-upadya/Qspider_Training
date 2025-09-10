@@ -8,8 +8,10 @@ button.addEventListener('click', () => {
     let captcha=''
     for(let i=1;i<=4;i++)
     {
-        let num=Math.round(Math.random() *str.length())
+        let num=Math.round(Math.random() *str.length)
+       
         captcha+=str[num]
+         console.log(captcha)
     }
     span.innerText=captcha
     myCaptcha=captcha
