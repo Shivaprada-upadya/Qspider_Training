@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f9;
+      font-family: Arial, sans-serif;
+    }
+
+
+.container{
+   display: flex; 
+   text-align: center;
+    
+
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    align-content: space-around;
+    padding: 1rem;
+
+}
+
+.btn ,.equals ,.clear ,.all-clear{
+    padding: 2rem;
+    align-content: space-between;
+    border-radius: 5px;
+    border-color: #f4f4f9;
+}
+
+input{
+    width: 300px;
+}
+
