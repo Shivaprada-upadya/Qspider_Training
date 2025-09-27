@@ -1,0 +1,1 @@
+export let data = ["Apple","Banana","Orange","Manago",]
