@@ -18,7 +18,7 @@ const NetflixCard=(props)=>
                 <p>Genre: {genre}</p>
                 <p>Cast: {cast}</p>
                 </div>
-                <div className="card-footer " >
+                <div className="card-footer " justify-content>
                 <a href={watch_url}  > <button style={rating>8.5?{background:"orange"}:{background:"green"}}>Watch Now</button></a>
                 </div>
             </div>
