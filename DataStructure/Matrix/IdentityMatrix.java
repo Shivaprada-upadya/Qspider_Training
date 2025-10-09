@@ -1,7 +1,7 @@
 
  public class IdentityMatrix{
     public static void main(String[] args) {
-        int m[][]={{1,0,0},{0,1,0},{0,0,1}};
+        int m[][]={{2,0,0},{0,1,0},{0,0,1}};
         boolean check = true;
         for(int i=0;i<m.length;i++)
         {
