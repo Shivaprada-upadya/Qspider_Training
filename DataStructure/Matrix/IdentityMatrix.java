@@ -1,4 +1,4 @@
-
+// Identical Matrix
  public class IdentityMatrix{
     public static void main(String[] args) {
         int m[][]={{2,0,0},{0,1,0},{0,0,1}};
