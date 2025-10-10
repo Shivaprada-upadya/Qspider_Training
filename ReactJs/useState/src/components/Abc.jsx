@@ -18,7 +18,7 @@ const Abc=()=>{
 
     return(
         <div>
-        <input type="text" className='form-control' onChange={handleChange}/> 
+        <input type="text" className='form-control w-25' onChange={handleChange}/> 
         <button className='btn btn-outline-success' onClick={addFruit}>Add Fruit</button>
         {
             fruits.map((fruit,index)=>{
