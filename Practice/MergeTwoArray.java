@@ -14,7 +14,7 @@ public class MergeTwoArray {
             else    
                 c[i]=b[i-a.length];
         }
-        Arrays.sort(c);
+       // Arrays.sort(c);
 
         System.out.println(Arrays.toString(c));
     }
