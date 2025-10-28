@@ -1,9 +1,10 @@
-import Abc from "./components/Abc"
+import Form from "./components/Form"
 
 const App=() =>{
   return(
    <>
-   <Abc/>
+   
+   <Form/>
     </>
   )
 }
